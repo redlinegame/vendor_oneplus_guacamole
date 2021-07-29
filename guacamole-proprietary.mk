@@ -11,49 +11,82 @@ PRODUCT_COPY_FILES += \
 	vendor/oneplus/guacamole/vendor/etc/acdbdata/MTP/MTP_Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Headset_cal.acdb \
 	vendor/oneplus/guacamole/vendor/etc/acdbdata/MTP/MTP_Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Speaker_cal.acdb \
 	vendor/oneplus/guacamole/vendor/etc/acdbdata/MTP/MTP_workspaceFile.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_workspaceFile.qwsp \
-	vendor/oneplus/guacamole/vendor/lib/libadsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadsprpc.so \
-	vendor/oneplus/guacamole/vendor/lib/libmdsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmdsprpc.so \
-	vendor/oneplus/guacamole/vendor/lib/libsdsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsdsprpc.so \
-	vendor/oneplus/guacamole/vendor/lib64/libadsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libadsprpc.so \
-	vendor/oneplus/guacamole/vendor/lib64/libmdsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmdsprpc.so \
-	vendor/oneplus/guacamole/vendor/lib/rfsa/adsp/libVC1Dec.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libVC1Dec.so \
-	vendor/oneplus/guacamole/vendor/lib/rfsa/adsp/libVC1DecDsp_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libVC1DecDsp_skel.so \
 	vendor/oneplus/guacamole/vendor/lib/hw/audio.primary.msmnile.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.msmnile.so \
 	vendor/oneplus/guacamole/vendor/lib64/hw/audio.primary.msmnile.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.primary.msmnile.so \
-	vendor/oneplus/guacamole/vendor/lib/libacdb-fts.so:$(TARGET_COPY_OUT_VENDOR)/lib/libacdb-fts.so \
-	vendor/oneplus/guacamole/vendor/lib/libacdbloader.so:$(TARGET_COPY_OUT_VENDOR)/lib/libacdbloader.so \
-	vendor/oneplus/guacamole/vendor/lib/libacdbrtac.so:$(TARGET_COPY_OUT_VENDOR)/lib/libacdbrtac.so \
-	vendor/oneplus/guacamole/vendor/lib/libadiertac.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadiertac.so \
-	vendor/oneplus/guacamole/vendor/lib/libaudcal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudcal.so \
-	vendor/oneplus/guacamole/vendor/lib/soundfx/libswdap.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libswdap.so \
-	vendor/oneplus/guacamole/vendor/lib64/libacdb-fts.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libacdb-fts.so \
-	vendor/oneplus/guacamole/vendor/lib64/libacdbloader.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libacdbloader.so \
-	vendor/oneplus/guacamole/vendor/lib64/libacdbrtac.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libacdbrtac.so \
-	vendor/oneplus/guacamole/vendor/lib64/libadiertac.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libadiertac.so \
-	vendor/oneplus/guacamole/vendor/lib64/libaudcal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudcal.so \
-	vendor/oneplus/guacamole/vendor/lib64/soundfx/libswdap.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libswdap.so \
-	vendor/oneplus/guacamole/vendor/firmware/tfa98xx.cnt:$(TARGET_COPY_OUT_VENDOR)/firmware/tfa98xx.cnt \
-	vendor/oneplus/guacamole/vendor/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so \
-	vendor/oneplus/guacamole/vendor/lib/libbtnv.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbtnv.so \
-	vendor/oneplus/guacamole/vendor/lib/liba2dpoffload.so:$(TARGET_COPY_OUT_VENDOR)/lib/liba2dpoffload.so \
-	vendor/oneplus/guacamole/vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so \
-	vendor/oneplus/guacamole/vendor/lib64/libbtnv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbtnv.so \
+	vendor/oneplus/guacamole/vendor/etc/camera/ashdr/iso617_4608x3456.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/camera/ashdr/iso617_4608x3456.ncf \
+	vendor/oneplus/guacamole/vendor/etc/camera/ashdr/ncf_pack.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/camera/ashdr/ncf_pack.ncf \
+	vendor/oneplus/guacamole/vendor/etc/camera/ashdr/ncf_pack_imx371.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/camera/ashdr/ncf_pack_imx371.ncf \
+	vendor/oneplus/guacamole/vendor/etc/camera/ashdr/ncf_pack_imx471.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/camera/ashdr/ncf_pack_imx471.ncf \
+	vendor/oneplus/guacamole/vendor/etc/camera/ashdr/ncf_pack_imx481.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/camera/ashdr/ncf_pack_imx481.ncf \
+	vendor/oneplus/guacamole/vendor/etc/camera/ashdr/ncf_pack_imx519.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/camera/ashdr/ncf_pack_imx519.ncf \
+	vendor/oneplus/guacamole/vendor/etc/camera/ashdr/ncf_pack_imx586.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/camera/ashdr/ncf_pack_imx586.ncf \
+	vendor/oneplus/guacamole/vendor/etc/camera/ashdr/ncf_pack_s5k3m5.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/camera/ashdr/ncf_pack_s5k3m5.ncf \
+	vendor/oneplus/guacamole/vendor/etc/camera/arccali.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/arccali.bin \
+	vendor/oneplus/guacamole/vendor/etc/camera/attribute.model:$(TARGET_COPY_OUT_VENDOR)/etc/camera/attribute.model \
+	vendor/oneplus/guacamole/vendor/etc/camera/calibrationOutput_uw.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/calibrationOutput_uw.bin \
+	vendor/oneplus/guacamole/vendor/etc/camera/calibrationOutput_wt.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/calibrationOutput_wt.bin \
+	vendor/oneplus/guacamole/vendor/etc/camera/distortion_result.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/distortion_result.bin \
+	vendor/oneplus/guacamole/vendor/etc/camera/distortion_result_7T_Golden_18865.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/distortion_result_7T_Golden_18865.bin \
+	vendor/oneplus/guacamole/vendor/etc/camera/goldResult_7T_uw.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/goldResult_7T_uw.bin \
+	vendor/oneplus/guacamole/vendor/etc/camera/goldResult_7T_wt.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/goldResult_7T_wt.bin \
+	vendor/oneplus/guacamole/vendor/etc/camera/goldResult_7Tpro_uw.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/goldResult_7Tpro_uw.bin \
+	vendor/oneplus/guacamole/vendor/etc/camera/goldResult_7Tpro_wt.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/goldResult_7Tpro_wt.bin \
+	vendor/oneplus/guacamole/vendor/etc/camera/OnePlus_7tPro_Golden_1.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/OnePlus_7tPro_Golden_1.bin \
+	vendor/oneplus/guacamole/vendor/etc/camera/OnePlus_7tPro_Golden_2.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/OnePlus_7tPro_Golden_2.bin \
 	vendor/oneplus/guacamole/vendor/etc/camera/vidhance_calibration:$(TARGET_COPY_OUT_VENDOR)/etc/camera/vidhance_calibration \
-	vendor/oneplus/guacamole/vendor/lib/camera/components/com.oneplus.node.eis.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.oneplus.node.eis.so \
-	vendor/oneplus/guacamole/vendor/lib/camera/components/com.oneplus.node.memcpy.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.oneplus.node.memcpy.so \
-	vendor/oneplus/guacamole/vendor/lib/camera/components/com.oneplus.node.bokeh.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.oneplus.node.bokeh.so \
-	vendor/oneplus/guacamole/vendor/lib/camera/components/com.oneplus.node.rtb.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.oneplus.node.rtb.so \
-	vendor/oneplus/guacamole/vendor/lib/camera/components/com.oneplus.node.sat.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.oneplus.node.sat.so \
-	vendor/oneplus/guacamole/vendor/lib/camera/components/com.qti.node.eisv2.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.node.eisv2.so \
-	vendor/oneplus/guacamole/vendor/lib/camera/components/com.qti.node.eisv3.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.node.eisv3.so \
-	vendor/oneplus/guacamole/vendor/lib/camera/components/com.qti.stats.aec.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.stats.aec.so \
-	vendor/oneplus/guacamole/vendor/lib/camera/components/com.qti.stats.af.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.stats.af.so \
-	vendor/oneplus/guacamole/vendor/lib/hw/camera.qcom.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.qcom.so \
-	vendor/oneplus/guacamole/vendor/lib/hw/com.qti.chi.override.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/com.qti.chi.override.so \
-	vendor/oneplus/guacamole/vendor/lib/libsns_api.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsns_api.so \
-	vendor/oneplus/guacamole/vendor/lib/libsnsapi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsnsapi.so \
-	vendor/oneplus/guacamole/vendor/lib/libsnsdiaglog.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsnsdiaglog.so \
-	vendor/oneplus/guacamole/vendor/lib/libswvdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libswvdec.so \
+	vendor/oneplus/guacamole/vendor/etc/init/calibrationOutput_uw.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/calibrationOutput_uw.rc \
+	vendor/oneplus/guacamole/vendor/etc/init/calibrationOutput_wt.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/calibrationOutput_wt.rc \
+	vendor/oneplus/guacamole/vendor/lib64/camera/components/com.oneplus.node.bokeh.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.oneplus.node.bokeh.so \
+	vendor/oneplus/guacamole/vendor/lib64/camera/components/com.oneplus.node.distortion.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.oneplus.node.distortion.so \
+	vendor/oneplus/guacamole/vendor/lib64/camera/components/com.oneplus.node.eis.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.oneplus.node.eis.so \
+	vendor/oneplus/guacamole/vendor/lib64/camera/components/com.oneplus.node.memcpy.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.oneplus.node.memcpy.so \
+	vendor/oneplus/guacamole/vendor/lib64/camera/components/com.oneplus.node.preview.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.oneplus.node.preview.so \
+	vendor/oneplus/guacamole/vendor/lib64/camera/components/com.oneplus.node.rtb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.oneplus.node.rtb.so \
+	vendor/oneplus/guacamole/vendor/lib64/camera/components/com.oneplus.node.sat.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.oneplus.node.sat.so \
+	vendor/oneplus/guacamole/vendor/lib64/camera/components/com.oneplus.node.snapshotfusion.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.oneplus.node.snapshotfusion.so \
+	vendor/oneplus/guacamole/vendor/lib64/camera/components/com.oneplus.node.supernightraw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.oneplus.node.supernightraw.so \
+	vendor/oneplus/guacamole/vendor/lib64/camera/components/com.qti.camx.chiiqutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.camx.chiiqutils.so \
+	vendor/oneplus/guacamole/vendor/lib64/camera/components/com.qti.eisv2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.eisv2.so \
+	vendor/oneplus/guacamole/vendor/lib64/camera/components/com.qti.eisv3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.eisv3.so \
+	vendor/oneplus/guacamole/vendor/lib64/camera/components/com.qti.hvx.addconstant.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.hvx.addconstant.so \
+	vendor/oneplus/guacamole/vendor/lib64/camera/components/com.qti.hvx.binning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.hvx.binning.so \
+	vendor/oneplus/guacamole/vendor/lib64/camera/components/com.qti.node.depth.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.node.depth.so \
+	vendor/oneplus/guacamole/vendor/lib64/camera/components/com.qti.node.dummyrtb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.node.dummyrtb.so \
+	vendor/oneplus/guacamole/vendor/lib64/camera/components/com.qti.node.dummysat.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.node.dummysat.so \
+	vendor/oneplus/guacamole/vendor/lib64/camera/components/com.qti.node.eisv2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.node.eisv2.so \
+	vendor/oneplus/guacamole/vendor/lib64/camera/components/com.qti.node.eisv3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.node.eisv3.so \
+	vendor/oneplus/guacamole/vendor/lib64/camera/components/com.qti.node.fcv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.node.fcv.so \
+	vendor/oneplus/guacamole/vendor/lib64/camera/components/com.qti.node.gpu.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.node.gpu.so \
+	vendor/oneplus/guacamole/vendor/lib64/camera/components/com.qti.node.memcpy.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.node.memcpy.so \
+	vendor/oneplus/guacamole/vendor/lib64/camera/components/com.qti.node.remosaic.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.node.remosaic.so \
+	vendor/oneplus/guacamole/vendor/lib64/camera/components/com.qti.node.stich.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.node.stich.so \
+	vendor/oneplus/guacamole/vendor/lib64/camera/components/com.qti.node.swregistration.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.node.swregistration.so \
+	vendor/oneplus/guacamole/vendor/lib64/camera/components/com.qti.stats.aec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.stats.aec.so \
+	vendor/oneplus/guacamole/vendor/lib64/camera/components/com.qti.stats.aecwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.stats.aecwrapper.so \
+	vendor/oneplus/guacamole/vendor/lib64/camera/components/com.qti.stats.af.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.stats.af.so \
+	vendor/oneplus/guacamole/vendor/lib64/camera/components/com.qti.stats.afd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.stats.afd.so \
+	vendor/oneplus/guacamole/vendor/lib64/camera/components/com.qti.stats.afwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.stats.afwrapper.so \
+	vendor/oneplus/guacamole/vendor/lib64/camera/components/com.qti.stats.asd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.stats.asd.so \
+	vendor/oneplus/guacamole/vendor/lib64/camera/components/com.qti.stats.awb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.stats.awb.so \
+	vendor/oneplus/guacamole/vendor/lib64/camera/components/com.qti.stats.awbwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.stats.awbwrapper.so \
+	vendor/oneplus/guacamole/vendor/lib64/camera/components/com.qti.stats.haf.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.stats.haf.so \
+	vendor/oneplus/guacamole/vendor/lib64/camera/components/com.qti.stats.hafoverride.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.stats.hafoverride.so \
+	vendor/oneplus/guacamole/vendor/lib64/camera/components/com.qti.stats.localhistogram.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.stats.localhistogram.so \
+	vendor/oneplus/guacamole/vendor/lib64/camera/components/com.qti.stats.pdlib.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.stats.pdlib.so \
+	vendor/oneplus/guacamole/vendor/lib64/camera/components/com.qti.stats.pdlibsony.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.stats.pdlibsony.so \
+	vendor/oneplus/guacamole/vendor/lib64/camera/components/com.qti.stats.pdlibwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.stats.pdlibwrapper.so \
+	vendor/oneplus/guacamole/vendor/lib64/camera/components/com.qtistatic.stats.aec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qtistatic.stats.aec.so \
+	vendor/oneplus/guacamole/vendor/lib64/camera/components/com.qtistatic.stats.af.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qtistatic.stats.af.so \
+	vendor/oneplus/guacamole/vendor/lib64/camera/components/com.qtistatic.stats.awb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qtistatic.stats.awb.so \
+	vendor/oneplus/guacamole/vendor/lib64/camera/components/com.qtistatic.stats.pdlib.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qtistatic.stats.pdlib.so \
+	vendor/oneplus/guacamole/vendor/lib64/camera/components/com.vidhance.stats.aec_dmbr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.vidhance.stats.aec_dmbr.so \
+	vendor/oneplus/guacamole/vendor/lib64/camera/components/libdepthmapwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/libdepthmapwrapper.so \
+	vendor/oneplus/guacamole/vendor/lib64/camera/com.qti.sensor.gc5035.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.gc5035.so \
+	vendor/oneplus/guacamole/vendor/lib64/camera/com.qti.sensor.imx371.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.imx371.so \
+	vendor/oneplus/guacamole/vendor/lib64/camera/com.qti.sensor.imx471.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.imx471.so \
+	vendor/oneplus/guacamole/vendor/lib64/camera/com.qti.sensor.imx481.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.imx481.so \
+	vendor/oneplus/guacamole/vendor/lib64/camera/com.qti.sensor.imx586.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.imx586.so \
+	vendor/oneplus/guacamole/vendor/lib64/camera/com.qti.sensor.s5k3m5.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.s5k3m5.so \
 	vendor/oneplus/guacamole/vendor/lib64/camera/com.qti.sensormodule.ofilm_imx481.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.ofilm_imx481.bin \
 	vendor/oneplus/guacamole/vendor/lib64/camera/com.qti.sensormodule.ofilm_imx586.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.ofilm_imx586.bin \
 	vendor/oneplus/guacamole/vendor/lib64/camera/com.qti.sensormodule.ofilm_s5k3m5.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.ofilm_s5k3m5.bin \
@@ -70,200 +103,54 @@ PRODUCT_COPY_FILES += \
 	vendor/oneplus/guacamole/vendor/lib64/camera/com.qti.tuned.semco_imx586.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.semco_imx586.bin \
 	vendor/oneplus/guacamole/vendor/lib64/camera/com.qti.tuned.semco_s5k3m5.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.semco_s5k3m5.bin \
 	vendor/oneplus/guacamole/vendor/lib64/camera/com.qti.tuned.sunny_imx471.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.sunny_imx471.bin \
-	vendor/oneplus/guacamole/vendor/lib64/camera/components/com.oneplus.node.eis.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.oneplus.node.eis.so \
-	vendor/oneplus/guacamole/vendor/lib64/camera/components/com.oneplus.node.memcpy.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.oneplus.node.memcpy.so \
-	vendor/oneplus/guacamole/vendor/lib64/camera/components/com.oneplus.node.bokeh.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.oneplus.node.bokeh.so \
-	vendor/oneplus/guacamole/vendor/lib64/camera/components/com.oneplus.node.rtb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.oneplus.node.rtb.so \
-	vendor/oneplus/guacamole/vendor/lib64/camera/components/com.oneplus.node.sat.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.oneplus.node.sat.so \
-	vendor/oneplus/guacamole/vendor/lib64/camera/components/com.qti.node.eisv2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.node.eisv2.so \
-	vendor/oneplus/guacamole/vendor/lib64/camera/components/com.qti.node.eisv3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.node.eisv3.so \
-	vendor/oneplus/guacamole/vendor/lib64/camera/components/com.qti.stats.aec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.stats.aec.so \
-	vendor/oneplus/guacamole/vendor/lib64/camera/components/com.qti.stats.af.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.stats.af.so \
+	vendor/oneplus/guacamole/vendor/lib64/camera/fdconfigpreview.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/fdconfigpreview.bin \
+	vendor/oneplus/guacamole/vendor/lib64/camera/fdconfigpreviewlite.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/fdconfigpreviewlite.bin \
+	vendor/oneplus/guacamole/vendor/lib64/camera/fdconfigvideo.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/fdconfigvideo.bin \
+	vendor/oneplus/guacamole/vendor/lib64/camera/fdconfigvideolite.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/fdconfigvideolite.bin \
 	vendor/oneplus/guacamole/vendor/lib64/hw/camera.qcom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/camera.qcom.so \
-	vendor/oneplus/guacamole/vendor/lib64/hw/com.qti.chi.override.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/com.qti.chi.override.so \
-	vendor/oneplus/guacamole/vendor/lib64/libsns_api.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsns_api.so \
-	vendor/oneplus/guacamole/vendor/lib64/libsnsapi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsnsapi.so \
-	vendor/oneplus/guacamole/vendor/lib64/libsnsdiaglog.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsnsdiaglog.so \
-	vendor/oneplus/guacamole/vendor/lib64/libswvdec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libswvdec.so \
-	vendor/oneplus/guacamole/vendor/lib/libcdsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcdsprpc.so \
-	vendor/oneplus/guacamole/vendor/lib64/libcdsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcdsprpc.so \
-	vendor/oneplus/guacamole/vendor/lib64/libsdsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsdsprpc.so \
-	vendor/oneplus/guacamole/vendor/lib/libcvp_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcvp_common.so \
-	vendor/oneplus/guacamole/vendor/lib64/libcvp_common.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcvp_common.so \
-	vendor/oneplus/guacamole/vendor/bin/hw/vendor.oneplus.hardware.display@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.oneplus.hardware.display@1.0-service \
-	vendor/oneplus/guacamole/vendor/lib/hw/hwcomposer.msmnile.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/hwcomposer.msmnile.so \
-	vendor/oneplus/guacamole/vendor/lib/libhdmipassthru.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhdmipassthru.so \
-	vendor/oneplus/guacamole/vendor/lib/libsdedrm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsdedrm.so \
-	vendor/oneplus/guacamole/vendor/lib/libsdmcore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsdmcore.so \
-	vendor/oneplus/guacamole/vendor/lib64/hw/hwcomposer.msmnile.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/hwcomposer.msmnile.so \
-	vendor/oneplus/guacamole/vendor/lib64/libhdmipassthru.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhdmipassthru.so \
-	vendor/oneplus/guacamole/vendor/lib64/libsdedrm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsdedrm.so \
-	vendor/oneplus/guacamole/vendor/lib64/libsdmcore.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsdmcore.so \
-	vendor/oneplus/guacamole/vendor/etc/qdcm_calib_data_samsung_dsc_cmd_mode_oneplus_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_samsung_dsc_cmd_mode_oneplus_dsi_panel.xml \
-	vendor/oneplus/guacamole/vendor/bin/qseecomd:$(TARGET_COPY_OUT_VENDOR)/bin/qseecomd \
-	vendor/oneplus/guacamole/vendor/lib/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libwvdrmengine.so \
-	vendor/oneplus/guacamole/vendor/lib/liboemcrypto.so:$(TARGET_COPY_OUT_VENDOR)/lib/liboemcrypto.so \
-	vendor/oneplus/guacamole/vendor/lib64/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mediadrm/libwvdrmengine.so \
-	vendor/oneplus/guacamole/vendor/lib64/libarm_proxy_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarm_proxy_skel.so \
-	vendor/oneplus/guacamole/vendor/lib64/liboemcrypto.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liboemcrypto.so \
-	vendor/oneplus/guacamole/vendor/lib64/libhvx_proxy_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhvx_proxy_stub.so \
 	vendor/oneplus/guacamole/vendor/lib/hw/goodix.fod.msmnile.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/goodix.fod.msmnile.so \
 	vendor/oneplus/guacamole/vendor/lib/fp_hal_extension.so:$(TARGET_COPY_OUT_VENDOR)/lib/fp_hal_extension.so \
 	vendor/oneplus/guacamole/vendor/lib/libgf_ud_hal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgf_ud_hal.so \
 	vendor/oneplus/guacamole/vendor/lib/vendor.goodix.hardware.biometrics.fingerprint@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.goodix.hardware.biometrics.fingerprint@2.1.so \
 	vendor/oneplus/guacamole/vendor/lib64/hw/goodix.fod.msmnile.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/goodix.fod.msmnile.so \
 	vendor/oneplus/guacamole/vendor/lib64/fp_hal_extension.so:$(TARGET_COPY_OUT_VENDOR)/lib64/fp_hal_extension.so \
+	vendor/oneplus/guacamole/vendor/lib64/libarm_proxy_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarm_proxy_skel.so \
 	vendor/oneplus/guacamole/vendor/lib64/libgf_ud_hal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgf_ud_hal.so \
+	vendor/oneplus/guacamole/vendor/lib64/libhvx_proxy_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhvx_proxy_stub.so \
 	vendor/oneplus/guacamole/vendor/lib64/vendor.goodix.hardware.biometrics.fingerprint@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.goodix.hardware.biometrics.fingerprint@2.1.so \
-	vendor/oneplus/guacamole/vendor/bin/slim_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/slim_daemon \
-	vendor/oneplus/guacamole/vendor/lib/hw/android.hardware.gnss@2.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.gnss@2.0-impl-qti.so \
-	vendor/oneplus/guacamole/vendor/lib/hw/vendor.qti.gnss@3.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.gnss@3.0-impl.so \
-	vendor/oneplus/guacamole/vendor/lib/libslimclient.so:$(TARGET_COPY_OUT_VENDOR)/lib/libslimclient.so \
-	vendor/oneplus/guacamole/vendor/lib64/hw/android.hardware.gnss@2.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.gnss@2.0-impl-qti.so \
-	vendor/oneplus/guacamole/vendor/lib64/hw/vendor.qti.gnss@3.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.gnss@3.0-impl.so \
-	vendor/oneplus/guacamole/vendor/lib64/libdataitems.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdataitems.so \
-	vendor/oneplus/guacamole/vendor/lib64/liblbs_core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblbs_core.so \
-	vendor/oneplus/guacamole/vendor/lib64/libloc_api_v02.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libloc_api_v02.so \
-	vendor/oneplus/guacamole/vendor/lib64/liblocationservice.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblocationservice.so \
-	vendor/oneplus/guacamole/vendor/lib64/liblocationservice_glue.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblocationservice_glue.so \
-	vendor/oneplus/guacamole/vendor/lib64/libslimclient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libslimclient.so \
-	vendor/oneplus/guacamole/vendor/firmware/a640_zap.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/a640_zap.b01 \
-	vendor/oneplus/guacamole/vendor/firmware/a640_zap.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/a640_zap.elf \
-	vendor/oneplus/guacamole/vendor/firmware/a640_zap.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/a640_zap.mdt \
-	vendor/oneplus/guacamole/vendor/bin/hw/vendor.oneplus.hardware.ifaa@2.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.oneplus.hardware.ifaa@2.0-service \
-	vendor/oneplus/guacamole/vendor/firmware/ipa_fws.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.b01 \
-	vendor/oneplus/guacamole/vendor/firmware/ipa_fws.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.elf \
-	vendor/oneplus/guacamole/vendor/firmware/ipa_fws.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.mdt \
-	vendor/oneplus/guacamole/vendor/firmware/ipa_uc.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_uc.b01 \
-	vendor/oneplus/guacamole/vendor/firmware/ipa_uc.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_uc.elf \
-	vendor/oneplus/guacamole/vendor/firmware/ipa_uc.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_uc.mdt \
-	vendor/oneplus/guacamole/vendor/lib/hw/sound_trigger.primary.msmnile.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sound_trigger.primary.msmnile.so \
-	vendor/oneplus/guacamole/vendor/lib/libgcs-calwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgcs-calwrapper.so \
-	vendor/oneplus/guacamole/vendor/lib/libgcs-ipc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgcs-ipc.so \
-	vendor/oneplus/guacamole/vendor/lib/libgcs.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgcs.so \
-	vendor/oneplus/guacamole/vendor/lib/liblistenjni.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblistenjni.so \
-	vendor/oneplus/guacamole/vendor/lib64/hw/sound_trigger.primary.msmnile.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/sound_trigger.primary.msmnile.so \
-	vendor/oneplus/guacamole/vendor/lib64/libgcs-calwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgcs-calwrapper.so \
-	vendor/oneplus/guacamole/vendor/lib64/libgcs-ipc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgcs-ipc.so \
-	vendor/oneplus/guacamole/vendor/lib64/libgcs.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgcs.so \
-	vendor/oneplus/guacamole/vendor/lib64/liblistenjni.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblistenjni.so \
-	vendor/oneplus/guacamole/vendor/lib/libOmxAacDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxAacDec.so \
-	vendor/oneplus/guacamole/vendor/lib/libOmxAlacDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxAlacDec.so \
-	vendor/oneplus/guacamole/vendor/lib/libOmxAmrDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxAmrDec.so \
-	vendor/oneplus/guacamole/vendor/lib/libOmxAmrwbplusDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxAmrwbplusDec.so \
-	vendor/oneplus/guacamole/vendor/lib/libOmxApeDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxApeDec.so \
-	vendor/oneplus/guacamole/vendor/lib/libOmxG711Dec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxG711Dec.so \
-	vendor/oneplus/guacamole/vendor/lib/libOmxSwVdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxSwVdec.so \
-	vendor/oneplus/guacamole/vendor/lib/libOmxSwVencMpeg4.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxSwVencMpeg4.so \
-	vendor/oneplus/guacamole/vendor/lib/libOmxVpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxVpp.so \
-	vendor/oneplus/guacamole/vendor/lib/libOmxWmaDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxWmaDec.so \
-	vendor/oneplus/guacamole/vendor/lib/libstagefright_soft_ac4dec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_ac4dec.so \
-	vendor/oneplus/guacamole/vendor/lib/libstagefright_soft_qtiflacdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_qtiflacdec.so \
-	vendor/oneplus/guacamole/vendor/lib/libvppclient.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvppclient.so \
-	vendor/oneplus/guacamole/vendor/lib/libvpplibrary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvpplibrary.so \
-	vendor/oneplus/guacamole/vendor/lib/libvpptestutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvpptestutils.so \
-	vendor/oneplus/guacamole/vendor/lib64/libOmxAacDec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxAacDec.so \
-	vendor/oneplus/guacamole/vendor/lib64/libOmxAlacDec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxAlacDec.so \
-	vendor/oneplus/guacamole/vendor/lib64/libOmxAmrDec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxAmrDec.so \
-	vendor/oneplus/guacamole/vendor/lib64/libOmxAmrwbplusDec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxAmrwbplusDec.so \
-	vendor/oneplus/guacamole/vendor/lib64/libOmxApeDec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxApeDec.so \
-	vendor/oneplus/guacamole/vendor/lib64/libOmxG711Dec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxG711Dec.so \
-	vendor/oneplus/guacamole/vendor/lib64/libOmxSwVdec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxSwVdec.so \
-	vendor/oneplus/guacamole/vendor/lib64/libOmxSwVencMpeg4.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxSwVencMpeg4.so \
-	vendor/oneplus/guacamole/vendor/lib64/libOmxVpp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxVpp.so \
-	vendor/oneplus/guacamole/vendor/lib64/libOmxWmaDec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxWmaDec.so \
-	vendor/oneplus/guacamole/vendor/lib64/libstagefright_soft_qtiflacdec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstagefright_soft_qtiflacdec.so \
-	vendor/oneplus/guacamole/vendor/lib64/libvppclient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvppclient.so \
-	vendor/oneplus/guacamole/vendor/lib64/libvpplibrary.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvpplibrary.so \
-	vendor/oneplus/guacamole/vendor/lib64/libvpptestutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvpptestutils.so \
-	vendor/oneplus/guacamole/vendor/lib/libperfconfig.so:$(TARGET_COPY_OUT_VENDOR)/lib/libperfconfig.so \
-	vendor/oneplus/guacamole/vendor/lib64/libperfconfig.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libperfconfig.so \
-	vendor/oneplus/guacamole/vendor/bin/pd-mapper:$(TARGET_COPY_OUT_VENDOR)/bin/pd-mapper \
-	vendor/oneplus/guacamole/vendor/lib/libdiag.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdiag.so \
-	vendor/oneplus/guacamole/vendor/lib/libdsutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdsutils.so \
-	vendor/oneplus/guacamole/vendor/lib/libqcci_legacy.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcci_legacy.so \
-	vendor/oneplus/guacamole/vendor/lib/libqdi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqdi.so \
-	vendor/oneplus/guacamole/vendor/lib/libqdp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqdp.so \
-	vendor/oneplus/guacamole/vendor/lib/libqmi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmi.so \
-	vendor/oneplus/guacamole/vendor/lib/libqmi_cci.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmi_cci.so \
-	vendor/oneplus/guacamole/vendor/lib/libqmi_client_helper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmi_client_helper.so \
-	vendor/oneplus/guacamole/vendor/lib/libqmi_client_qmux.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmi_client_qmux.so \
-	vendor/oneplus/guacamole/vendor/lib/libqmi_csi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmi_csi.so \
-	vendor/oneplus/guacamole/vendor/lib/libqmiservices.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmiservices.so \
-	vendor/oneplus/guacamole/vendor/lib64/libdiag.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdiag.so \
-	vendor/oneplus/guacamole/vendor/lib64/libdsutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdsutils.so \
-	vendor/oneplus/guacamole/vendor/lib64/libqcci_legacy.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqcci_legacy.so \
-	vendor/oneplus/guacamole/vendor/lib64/libqdi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqdi.so \
-	vendor/oneplus/guacamole/vendor/lib64/libqdp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqdp.so \
-	vendor/oneplus/guacamole/vendor/lib64/libqmi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqmi.so \
-	vendor/oneplus/guacamole/vendor/lib64/libqmi_cci.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqmi_cci.so \
-	vendor/oneplus/guacamole/vendor/lib64/libqmi_client_helper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqmi_client_helper.so \
-	vendor/oneplus/guacamole/vendor/lib64/libqmi_client_qmux.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqmi_client_qmux.so \
-	vendor/oneplus/guacamole/vendor/lib64/libqmi_csi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqmi_csi.so \
-	vendor/oneplus/guacamole/vendor/lib64/libqmiservices.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqmiservices.so \
-	vendor/oneplus/guacamole/system/framework/qcnvitems.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/qcnvitems.jar \
-	vendor/oneplus/guacamole/system/product/framework/qcrilhook.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/qcrilhook.jar \
-	vendor/oneplus/guacamole/vendor/etc/data/netmgr_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/data/netmgr_config.xml \
-	vendor/oneplus/guacamole/system/product/etc/permissions/privapp-permissions-oem-product.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-oem-product.xml \
-	vendor/oneplus/guacamole/vendor/bin/adpl:$(TARGET_COPY_OUT_VENDOR)/bin/adpl \
-	vendor/oneplus/guacamole/vendor/bin/ATFWD-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/ATFWD-daemon \
-	vendor/oneplus/guacamole/vendor/bin/diag_mdlog:$(TARGET_COPY_OUT_VENDOR)/bin/diag_mdlog \
-	vendor/oneplus/guacamole/vendor/bin/ipacm-diag:$(TARGET_COPY_OUT_VENDOR)/bin/ipacm-diag \
-	vendor/oneplus/guacamole/vendor/bin/netmgrd:$(TARGET_COPY_OUT_VENDOR)/bin/netmgrd \
-	vendor/oneplus/guacamole/vendor/bin/port-bridge:$(TARGET_COPY_OUT_VENDOR)/bin/port-bridge \
-	vendor/oneplus/guacamole/vendor/bin/qti:$(TARGET_COPY_OUT_VENDOR)/bin/qti \
-	vendor/oneplus/guacamole/vendor/bin/rmt_storage:$(TARGET_COPY_OUT_VENDOR)/bin/rmt_storage \
-	vendor/oneplus/guacamole/vendor/lib/libmdmdetect.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmdmdetect.so \
-	vendor/oneplus/guacamole/vendor/lib/qtibus.so:$(TARGET_COPY_OUT_VENDOR)/lib/qtibus.so \
-	vendor/oneplus/guacamole/vendor/lib/qtimutex.so:$(TARGET_COPY_OUT_VENDOR)/lib/qtimutex.so \
-	vendor/oneplus/guacamole/vendor/lib64/libconfigdb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libconfigdb.so \
-	vendor/oneplus/guacamole/vendor/lib64/libdsi_netctrl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdsi_netctrl.so \
-	vendor/oneplus/guacamole/vendor/lib64/liblqe.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblqe.so \
-	vendor/oneplus/guacamole/vendor/lib64/libmdmdetect.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmdmdetect.so \
-	vendor/oneplus/guacamole/vendor/lib64/libnetmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnetmgr.so \
-	vendor/oneplus/guacamole/vendor/lib64/libnetmgr_common.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnetmgr_common.so \
-	vendor/oneplus/guacamole/vendor/lib64/libpdmapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpdmapper.so \
-	vendor/oneplus/guacamole/vendor/lib64/libpdnotifier.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpdnotifier.so \
-	vendor/oneplus/guacamole/vendor/lib64/libqcmaputils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqcmaputils.so \
-	vendor/oneplus/guacamole/vendor/lib64/libqcrilFramework.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqcrilFramework.so \
-	vendor/oneplus/guacamole/vendor/lib64/libqmi_csvt_srvc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqmi_csvt_srvc.so \
-	vendor/oneplus/guacamole/vendor/lib64/libril-qc-hal-qmi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libril-qc-hal-qmi.so \
-	vendor/oneplus/guacamole/vendor/lib64/libril-qc-ltedirectdisc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libril-qc-ltedirectdisc.so \
-	vendor/oneplus/guacamole/vendor/lib64/libril-qc-qmi-1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libril-qc-qmi-1.so \
-	vendor/oneplus/guacamole/vendor/lib64/libril-qc-radioconfig.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libril-qc-radioconfig.so \
-	vendor/oneplus/guacamole/vendor/lib64/librilqmiservices.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librilqmiservices.so \
-	vendor/oneplus/guacamole/vendor/lib64/libsettings.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsettings.so \
-	vendor/oneplus/guacamole/vendor/lib64/qtibus.so:$(TARGET_COPY_OUT_VENDOR)/lib64/qtibus.so \
-	vendor/oneplus/guacamole/vendor/lib64/qtimutex.so:$(TARGET_COPY_OUT_VENDOR)/lib64/qtimutex.so \
-	vendor/oneplus/guacamole/vendor/radio/qcril_database/qcril.db:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/qcril.db \
-	vendor/oneplus/guacamole/vendor/radio/qcril_database/upgrade/7_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/7_version_update_ecc_table.sql \
-	vendor/oneplus/guacamole/vendor/lib/lib-imsrcs-v2.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-imsrcs-v2.so \
-	vendor/oneplus/guacamole/vendor/lib64/lib-imsrcs-v2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-imsrcs-v2.so \
-	vendor/oneplus/guacamole/vendor/bin/hw/vendor.oneplus.hardware.rpmb@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.oneplus.hardware.rpmb@1.0-service \
-	vendor/oneplus/guacamole/vendor/bin/sensors.qti:$(TARGET_COPY_OUT_VENDOR)/bin/sensors.qti \
-	vendor/oneplus/guacamole/vendor/etc/sensors/config/ak991x_polling_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/ak991x_polling_0.json \
 	vendor/oneplus/guacamole/vendor/etc/sensors/config/ak991x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/ak991x_0.json \
+	vendor/oneplus/guacamole/vendor/etc/sensors/config/ak991x_polling_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/ak991x_polling_0.json \
 	vendor/oneplus/guacamole/vendor/etc/sensors/config/bmi26x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/bmi26x_0.json \
 	vendor/oneplus/guacamole/vendor/etc/sensors/config/lps22hh_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/lps22hh_0.json \
 	vendor/oneplus/guacamole/vendor/etc/sensors/config/lsm6dsm_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/lsm6dsm_0.json \
 	vendor/oneplus/guacamole/vendor/etc/sensors/config/lsm6dsm_0_8g.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/lsm6dsm_0_8g.json \
 	vendor/oneplus/guacamole/vendor/etc/sensors/config/mmc5603x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/mmc5603x_0.json \
 	vendor/oneplus/guacamole/vendor/etc/sensors/config/msmnile_ak991x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/msmnile_ak991x_0.json \
+	vendor/oneplus/guacamole/vendor/etc/sensors/config/msmnile_bme680_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/msmnile_bme680_0.json \
 	vendor/oneplus/guacamole/vendor/etc/sensors/config/msmnile_bmi26x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/msmnile_bmi26x_0.json \
+	vendor/oneplus/guacamole/vendor/etc/sensors/config/msmnile_bu52053nvx_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/msmnile_bu52053nvx_0.json \
+	vendor/oneplus/guacamole/vendor/etc/sensors/config/msmnile_cm3526_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/msmnile_cm3526_0.json \
 	vendor/oneplus/guacamole/vendor/etc/sensors/config/msmnile_default_sensors.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/msmnile_default_sensors.json \
 	vendor/oneplus/guacamole/vendor/etc/sensors/config/msmnile_dps368_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/msmnile_dps368_0.json \
+	vendor/oneplus/guacamole/vendor/etc/sensors/config/msmnile_hdk_ak991x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/msmnile_hdk_ak991x_0.json \
+	vendor/oneplus/guacamole/vendor/etc/sensors/config/msmnile_hdk_lsm6dso_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/msmnile_hdk_lsm6dso_0.json \
 	vendor/oneplus/guacamole/vendor/etc/sensors/config/msmnile_hdk_tmd2725_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/msmnile_hdk_tmd2725_0.json \
 	vendor/oneplus/guacamole/vendor/etc/sensors/config/msmnile_irq.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/msmnile_irq.json \
 	vendor/oneplus/guacamole/vendor/etc/sensors/config/msmnile_lsm6dsm_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/msmnile_lsm6dsm_0.json \
+	vendor/oneplus/guacamole/vendor/etc/sensors/config/msmnile_lsm6dso_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/msmnile_lsm6dso_0.json \
 	vendor/oneplus/guacamole/vendor/etc/sensors/config/msmnile_mmc5603x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/msmnile_mmc5603x_0.json \
 	vendor/oneplus/guacamole/vendor/etc/sensors/config/msmnile_power_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/msmnile_power_0.json \
+	vendor/oneplus/guacamole/vendor/etc/sensors/config/msmnile_qrd_2_lsm6dso_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/msmnile_qrd_2_lsm6dso_0.json \
+	vendor/oneplus/guacamole/vendor/etc/sensors/config/msmnile_qrd_ak991x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/msmnile_qrd_ak991x_0.json \
+	vendor/oneplus/guacamole/vendor/etc/sensors/config/msmnile_qrd_lsm6dso_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/msmnile_qrd_lsm6dso_0.json \
 	vendor/oneplus/guacamole/vendor/etc/sensors/config/msmnile_qrd_tmd2725_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/msmnile_qrd_tmd2725_0.json \
+	vendor/oneplus/guacamole/vendor/etc/sensors/config/msmnile_shtw2_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/msmnile_shtw2_0.json \
 	vendor/oneplus/guacamole/vendor/etc/sensors/config/msmnile_stk2232_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/msmnile_stk2232_0.json \
 	vendor/oneplus/guacamole/vendor/etc/sensors/config/msmnile_sx9324.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/msmnile_sx9324.json \
 	vendor/oneplus/guacamole/vendor/etc/sensors/config/msmnile_sx932x.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/msmnile_sx932x.json \
 	vendor/oneplus/guacamole/vendor/etc/sensors/config/msmnile_tcs3701.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/msmnile_tcs3701.json \
-	vendor/oneplus/guacamole/vendor/etc/sensors/config/msmnile_tmd3702.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/msmnile_tmd3702.json \
 	vendor/oneplus/guacamole/vendor/etc/sensors/config/msmnile_tmd2725_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/msmnile_tmd2725_0.json \
+	vendor/oneplus/guacamole/vendor/etc/sensors/config/msmnile_tmd3702.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/msmnile_tmd3702.json \
 	vendor/oneplus/guacamole/vendor/etc/sensors/config/sns_amd.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_amd.json \
 	vendor/oneplus/guacamole/vendor/etc/sensors/config/sns_amd_sw_disabled.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_amd_sw_disabled.json \
 	vendor/oneplus/guacamole/vendor/etc/sensors/config/sns_amd_sw_enabled.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_amd_sw_enabled.json \
@@ -272,6 +159,7 @@ PRODUCT_COPY_FILES += \
 	vendor/oneplus/guacamole/vendor/etc/sensors/config/sns_bring_to_ear.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_bring_to_ear.json \
 	vendor/oneplus/guacamole/vendor/etc/sensors/config/sns_ccd.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_ccd.json \
 	vendor/oneplus/guacamole/vendor/etc/sensors/config/sns_ccd_v2_walk.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_ccd_v2_walk.json \
+	vendor/oneplus/guacamole/vendor/etc/sensors/config/sns_ccd_v3_1_walk.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_ccd_v3_1_walk.json \
 	vendor/oneplus/guacamole/vendor/etc/sensors/config/sns_ccd_v3_walk.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_ccd_v3_walk.json \
 	vendor/oneplus/guacamole/vendor/etc/sensors/config/sns_cm.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_cm.json \
 	vendor/oneplus/guacamole/vendor/etc/sensors/config/sns_dae.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_dae.json \
@@ -281,6 +169,7 @@ PRODUCT_COPY_FILES += \
 	vendor/oneplus/guacamole/vendor/etc/sensors/config/sns_dpc.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_dpc.json \
 	vendor/oneplus/guacamole/vendor/etc/sensors/config/sns_facing.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_facing.json \
 	vendor/oneplus/guacamole/vendor/etc/sensors/config/sns_fmv.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_fmv.json \
+	vendor/oneplus/guacamole/vendor/etc/sensors/config/sns_fmv_legacy.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_fmv_legacy.json \
 	vendor/oneplus/guacamole/vendor/etc/sensors/config/sns_free_fall.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_free_fall.json \
 	vendor/oneplus/guacamole/vendor/etc/sensors/config/sns_geomag_rv.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_geomag_rv.json \
 	vendor/oneplus/guacamole/vendor/etc/sensors/config/sns_gyro_cal.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_gyro_cal.json \
@@ -297,119 +186,11 @@ PRODUCT_COPY_FILES += \
 	vendor/oneplus/guacamole/vendor/etc/sensors/config/sns_tilt_sw_enabled.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_tilt_sw_enabled.json \
 	vendor/oneplus/guacamole/vendor/etc/sensors/config/sns_tilt_to_wake.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_tilt_to_wake.json \
 	vendor/oneplus/guacamole/vendor/etc/sensors/config/sns_wrist_pedo.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_wrist_pedo.json \
-	vendor/oneplus/guacamole/vendor/etc/sensors/config/stk2232_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/stk2232_0.json \
 	vendor/oneplus/guacamole/vendor/etc/sensors/config/sx9324_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sx9324_0.json \
 	vendor/oneplus/guacamole/vendor/etc/sensors/config/sx932x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sx932x_0.json \
 	vendor/oneplus/guacamole/vendor/etc/sensors/config/tcs3701.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/tcs3701.json \
-	vendor/oneplus/guacamole/vendor/etc/sensors/config/tmd3702.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/tmd3702.json \
 	vendor/oneplus/guacamole/vendor/etc/sensors/sns_reg_config:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sns_reg_config \
-	vendor/oneplus/guacamole/vendor/lib/hw/vendor.qti.hardware.sensorscalibrate@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.hardware.sensorscalibrate@1.0-impl.so \
-	vendor/oneplus/guacamole/vendor/lib/libsensorcal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensorcal.so \
-	vendor/oneplus/guacamole/vendor/lib/libssc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libssc.so \
 	vendor/oneplus/guacamole/vendor/lib/sensors.ssc.so:$(TARGET_COPY_OUT_VENDOR)/lib/sensors.ssc.so \
-	vendor/oneplus/guacamole/vendor/lib64/hw/vendor.qti.hardware.sensorscalibrate@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.hardware.sensorscalibrate@1.0-impl.so \
-	vendor/oneplus/guacamole/vendor/lib64/libsensorcal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensorcal.so \
-	vendor/oneplus/guacamole/vendor/lib64/libssc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libssc.so \
-	vendor/oneplus/guacamole/vendor/lib64/sensors.ssc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.ssc.so \
-	vendor/oneplus/guacamole/vendor/bin/thermal-engine:$(TARGET_COPY_OUT_VENDOR)/bin/thermal-engine \
-	vendor/oneplus/guacamole/vendor/bin/time_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/time_daemon \
-	vendor/oneplus/guacamole/vendor/firmware/alarm_breeze.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/alarm_breeze.bin \
-	vendor/oneplus/guacamole/vendor/firmware/alarm_clock1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/alarm_clock1.bin \
-	vendor/oneplus/guacamole/vendor/firmware/alarm_clock2.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/alarm_clock2.bin \
-	vendor/oneplus/guacamole/vendor/firmware/alarm_clock3.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/alarm_clock3.bin \
-	vendor/oneplus/guacamole/vendor/firmware/alarm_clock4.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/alarm_clock4.bin \
-	vendor/oneplus/guacamole/vendor/firmware/alarm_clock5.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/alarm_clock5.bin \
-	vendor/oneplus/guacamole/vendor/firmware/alarm_dream.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/alarm_dream.bin \
-	vendor/oneplus/guacamole/vendor/firmware/alarm_flyer.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/alarm_flyer.bin \
-	vendor/oneplus/guacamole/vendor/firmware/alarm_interesting.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/alarm_interesting.bin \
-	vendor/oneplus/guacamole/vendor/firmware/alarm_leisurely.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/alarm_leisurely.bin \
-	vendor/oneplus/guacamole/vendor/firmware/alarm_memory.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/alarm_memory.bin \
-	vendor/oneplus/guacamole/vendor/firmware/alarm_relieved.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/alarm_relieved.bin \
-	vendor/oneplus/guacamole/vendor/firmware/alarm_ripple.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/alarm_ripple.bin \
-	vendor/oneplus/guacamole/vendor/firmware/alarm_spring.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/alarm_spring.bin \
-	vendor/oneplus/guacamole/vendor/firmware/alarm_stars.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/alarm_stars.bin \
-	vendor/oneplus/guacamole/vendor/firmware/alarm_surging.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/alarm_surging.bin \
-	vendor/oneplus/guacamole/vendor/firmware/alarm_tactfully.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/alarm_tactfully.bin \
-	vendor/oneplus/guacamole/vendor/firmware/alarm_the_wind.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/alarm_the_wind.bin \
-	vendor/oneplus/guacamole/vendor/firmware/alarm_walking_in_the_rain.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/alarm_walking_in_the_rain.bin \
-	vendor/oneplus/guacamole/vendor/firmware/aw8697_haptic_166.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_haptic_166.bin \
-	vendor/oneplus/guacamole/vendor/firmware/aw8697_haptic_168.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_haptic_168.bin \
-	vendor/oneplus/guacamole/vendor/firmware/aw8697_haptic_170.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_haptic_170.bin \
-	vendor/oneplus/guacamole/vendor/firmware/aw8697_haptic_172.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_haptic_172.bin \
-	vendor/oneplus/guacamole/vendor/firmware/aw8697_haptic_174.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8697_haptic_174.bin \
-	vendor/oneplus/guacamole/vendor/firmware/notif_Ardour.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/notif_Ardour.bin \
-	vendor/oneplus/guacamole/vendor/firmware/notif_allusion.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/notif_allusion.bin \
-	vendor/oneplus/guacamole/vendor/firmware/notif_amiable.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/notif_amiable.bin \
-	vendor/oneplus/guacamole/vendor/firmware/notif_blare.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/notif_blare.bin \
-	vendor/oneplus/guacamole/vendor/firmware/notif_blissful.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/notif_blissful.bin \
-	vendor/oneplus/guacamole/vendor/firmware/notif_cheerful.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/notif_cheerful.bin \
-	vendor/oneplus/guacamole/vendor/firmware/notif_comely.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/notif_comely.bin \
-	vendor/oneplus/guacamole/vendor/firmware/notif_cozy.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/notif_cozy.bin \
-	vendor/oneplus/guacamole/vendor/firmware/notif_ding.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/notif_ding.bin \
-	vendor/oneplus/guacamole/vendor/firmware/notif_effervesce.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/notif_effervesce.bin \
-	vendor/oneplus/guacamole/vendor/firmware/notif_elegant.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/notif_elegant.bin \
-	vendor/oneplus/guacamole/vendor/firmware/notif_free.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/notif_free.bin \
-	vendor/oneplus/guacamole/vendor/firmware/notif_hallucination.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/notif_hallucination.bin \
-	vendor/oneplus/guacamole/vendor/firmware/notif_inbound.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/notif_inbound.bin \
-	vendor/oneplus/guacamole/vendor/firmware/notif_incidence.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/notif_incidence.bin \
-	vendor/oneplus/guacamole/vendor/firmware/notif_light.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/notif_light.bin \
-	vendor/oneplus/guacamole/vendor/firmware/notif_meet.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/notif_meet.bin \
-	vendor/oneplus/guacamole/vendor/firmware/notif_naivety.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/notif_naivety.bin \
-	vendor/oneplus/guacamole/vendor/firmware/notif_quickly.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/notif_quickly.bin \
-	vendor/oneplus/guacamole/vendor/firmware/notif_rhythm.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/notif_rhythm.bin \
-	vendor/oneplus/guacamole/vendor/firmware/notif_silent.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/notif_silent.bin \
-	vendor/oneplus/guacamole/vendor/firmware/notif_spirit.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/notif_spirit.bin \
-	vendor/oneplus/guacamole/vendor/firmware/notif_surprise.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/notif_surprise.bin \
-	vendor/oneplus/guacamole/vendor/firmware/notif_twinkle.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/notif_twinkle.bin \
-	vendor/oneplus/guacamole/vendor/firmware/notif_Chic.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/notif_Chic.bin \
-	vendor/oneplus/guacamole/vendor/firmware/ring_McLarn.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/ring_McLarn.bin \
-	vendor/oneplus/guacamole/vendor/firmware/ring_alacrity.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/ring_alacrity.bin \
-	vendor/oneplus/guacamole/vendor/firmware/ring_amenity.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/ring_amenity.bin \
-	vendor/oneplus/guacamole/vendor/firmware/ring_blues.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/ring_blues.bin \
-	vendor/oneplus/guacamole/vendor/firmware/ring_brisk.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/ring_brisk.bin \
-	vendor/oneplus/guacamole/vendor/firmware/ring_cloud.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/ring_cloud.bin \
-	vendor/oneplus/guacamole/vendor/firmware/ring_cyclotron.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/ring_cyclotron.bin \
-	vendor/oneplus/guacamole/vendor/firmware/ring_distinct.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/ring_distinct.bin \
-	vendor/oneplus/guacamole/vendor/firmware/ring_dynamic.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/ring_dynamic.bin \
-	vendor/oneplus/guacamole/vendor/firmware/ring_echo.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/ring_echo.bin \
-	vendor/oneplus/guacamole/vendor/firmware/ring_expect.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/ring_expect.bin \
-	vendor/oneplus/guacamole/vendor/firmware/ring_fanatical.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/ring_fanatical.bin \
-	vendor/oneplus/guacamole/vendor/firmware/ring_funky.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/ring_funky.bin \
-	vendor/oneplus/guacamole/vendor/firmware/ring_game.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/ring_game.bin \
-	vendor/oneplus/guacamole/vendor/firmware/ring_guitar.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/ring_guitar.bin \
-	vendor/oneplus/guacamole/vendor/firmware/ring_harping.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/ring_harping.bin \
-	vendor/oneplus/guacamole/vendor/firmware/ring_highlight.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/ring_highlight.bin \
-	vendor/oneplus/guacamole/vendor/firmware/ring_idyl.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/ring_idyl.bin \
-	vendor/oneplus/guacamole/vendor/firmware/ring_innocence.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/ring_innocence.bin \
-	vendor/oneplus/guacamole/vendor/firmware/ring_journey.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/ring_journey.bin \
-	vendor/oneplus/guacamole/vendor/firmware/ring_joyous.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/ring_joyous.bin \
-	vendor/oneplus/guacamole/vendor/firmware/ring_marimba.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/ring_marimba.bin \
-	vendor/oneplus/guacamole/vendor/firmware/ring_old_telephone.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/ring_old_telephone.bin \
-	vendor/oneplus/guacamole/vendor/firmware/ring_oneplus_tune.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/ring_oneplus_tune.bin \
-	vendor/oneplus/guacamole/vendor/firmware/ring_oneplus_tune_rhythm.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/ring_oneplus_tune_rhythm.bin \
-	vendor/oneplus/guacamole/vendor/firmware/ring_optimistic.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/ring_optimistic.bin \
-	vendor/oneplus/guacamole/vendor/firmware/ring_piano.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/ring_piano.bin \
-	vendor/oneplus/guacamole/vendor/firmware/ring_pyxis.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/ring_pyxis.bin \
-	vendor/oneplus/guacamole/vendor/firmware/ring_T-Jingle.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/ring_T-Jingle.bin \
-	vendor/oneplus/guacamole/vendor/firmware/shuntai24k_rtp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/shuntai24k_rtp.bin \
-	vendor/oneplus/guacamole/vendor/firmware/wentai24k_rtp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/wentai24k_rtp.bin \
-	vendor/oneplus/guacamole/vendor/lib/hw/vibrator.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vibrator.default.so \
-	vendor/oneplus/guacamole/vendor/lib/hw/android.hardware.vibrator@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.vibrator@1.0-impl.so \
-	vendor/oneplus/guacamole/vendor/lib64/hw/vibrator.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vibrator.default.so \
-	vendor/oneplus/guacamole/vendor/lib64/hw/android.hardware.vibrator@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.vibrator@1.0-impl.so \
-	vendor/oneplus/guacamole/vendor/etc/init/android.hardware.vibrator@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.vibrator@1.0-service.rc \
-	vendor/oneplus/guacamole/vendor/bin/hw/android.hardware.vibrator@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.vibrator@1.0-service \
-	vendor/oneplus/guacamole/vendor/bin/cnss-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/cnss-daemon \
-	vendor/oneplus/guacamole/vendor/lib/libwigig_flashaccess.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwigig_flashaccess.so \
-	vendor/oneplus/guacamole/vendor/lib/libwigig_pciaccess.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwigig_pciaccess.so \
-	vendor/oneplus/guacamole/vendor/lib/libwigig_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwigig_utils.so \
-	vendor/oneplus/guacamole/vendor/lib/libwigigsensing.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwigigsensing.so \
-	vendor/oneplus/guacamole/vendor/lib64/libwigig_flashaccess.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwigig_flashaccess.so \
-	vendor/oneplus/guacamole/vendor/lib64/libwigig_pciaccess.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwigig_pciaccess.so \
-	vendor/oneplus/guacamole/vendor/lib64/libwigig_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwigig_utils.so \
-	vendor/oneplus/guacamole/vendor/lib64/libwigigsensing.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwigigsensing.so \
-	vendor/oneplus/guacamole/vendor/lib/libwfdconfigutils_proprietary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwfdconfigutils_proprietary.so \
-	vendor/oneplus/guacamole/system/lib64/libwfdnative.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libwfdnative.so 
+	vendor/oneplus/guacamole/vendor/lib64/sensors.ssc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.ssc.so 
 
-PRODUCT_PACKAGES += \
-	QFingerprintService 
+PRODUCT_PACKAGES += 
